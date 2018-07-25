@@ -1,0 +1,72 @@
+P{
+	COLOR:RED;
+	font-size:18PX;
+}
+.rojo{
+	color: red;
+}
+
+#texto1{
+	color: blue;
+}
+
+.rojo{
+	color: red;
+}
+.vegetales{
+	color: green;
+}
+.tuberculo{
+	color: red;
+}
+.cereales{
+	color: orange;
+}
+
+.carnes{
+	color: pink;
+}
+[data-precio= "200"]{ /*reglas especiales, ejem sombreado, aplica a los q tengan la regla con valor 200*/
+	background-color: pink;
+}
+[data-precio]{ /*reglas especiales, a todas*/
+	background-color: pink;
+}
+[data-descripcion~="rico"]{ /*reglas especiales, a todas*/
+	font-size: 70px; 
+}
+li:hover{
+	color:black;
+}
+h1, .carnes{
+	border:2px solid violet;
+}
+#div1{
+	border: 1px solid blue;
+	padding-left: 7px;
+	overflow: hidden;
+}
+#div2{
+	border: 10px solid #00FF00;
+	margin: 14px;
+	overflow: hidden;
+
+}
+.bordeGris{
+	border: 5px solid orange;
+	padding-left: 5px;
+	/*display: inline-block; alinear cajas en bloque*/
+	float: right;
+}
+.bordeOrange{
+	border: 5px solid orange;
+	padding-left: 5px;
+	/*display: inline-block; alinear cajas en bloque*/
+	position: static;
+	left: 30px;
+	right: 30px;
+    bottom: 30px;
+    top: 30px; 	
+}
+
+
